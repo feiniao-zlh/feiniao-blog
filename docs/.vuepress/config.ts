@@ -31,60 +31,60 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         // 导航配置
         nav: [
             {text: '首页', link: '/'},
-            {
-                text: '前端',
-                link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-                items: [
-                    // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-                    {
-
-                        text: '',
-                        items: [
-                            {text: 'JavaScript', link: '/note/js/'},
-                            {text: 'Vue', link: '/pages/114158caa9e96df0/'},
-                            {
-                                text: 'TypeScript',
-                                link: '/pages/51afd6/',
-                            },
-                        ],
-                    },
-                ],
-            },
-            {
-                text: '后端',
-                link: '/server/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-                items: [
-                    // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-                    {
-                        text: '',
-                        items: [
-                            {text: 'Spring', link: '/pages/30c04c/'},
-                            {text: 'Git', link: '/pages/8292d8/'},
-                        ],
-                    },
-                ],
-            },
+            // {
+            //     text: '前端',
+            //     link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+            //     items: [
+            //         // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
+            //         {
+            //
+            //             text: '',
+            //             items: [
+            //                 {text: 'JavaScript', link: '/note/js/'},
+            //                 {text: 'Vue', link: '/pages/114158caa9e96df0/'},
+            //                 {
+            //                     text: 'TypeScript',
+            //                     link: '/pages/51afd6/',
+            //                 },
+            //             ],
+            //         },
+            //     ],
+            // },
+            // {
+            //     text: '后端',
+            //     link: '/server/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+            //     items: [
+            //         // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
+            //         {
+            //             text: '',
+            //             items: [
+            //                 {text: 'Spring', link: '/pages/30c04c/'},
+            //                 {text: 'Git', link: '/pages/8292d8/'},
+            //             ],
+            //         },
+            //     ],
+            // },
             {
                 text: '算法',
                 link: '/pages/23e810/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
             },
-            {
-                text: '更多',
-                link: '/more/',
-                items: [
-                    {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
-                    {text: '实用技巧', link: '/pages/baaa02/'},
-                ],
-            },
-            {
-                text: '收藏',
-                link: '/pages/beb6c0bd8a66cea6/',
-                // items: [
-                //     {text: '前端网站', link: '/pages/beb6c0bd8a66cea6/'},
-                //     {text: '后端网站', link: '/pages/d5b6a0/'},
-                //     {text: '学习', link: '/pages/3bd45d/'},
-                // ],
-            },
+            // {
+            //     text: '更多',
+            //     link: '/more/',
+            //     items: [
+            //         {text: '心情杂货', link: '/pages/2d615df9a36a98ed/'},
+            //         {text: '实用技巧', link: '/pages/baaa02/'},
+            //     ],
+            // },
+            // {
+            //     text: '收藏',
+            //     link: '/pages/beb6c0bd8a66cea6/',
+            //     // items: [
+            //     //     {text: '前端网站', link: '/pages/beb6c0bd8a66cea6/'},
+            //     //     {text: '后端网站', link: '/pages/d5b6a0/'},
+            //     //     {text: '学习', link: '/pages/3bd45d/'},
+            //     // ],
+            // },
             {
                 text: '索引',
                 link: '/archives/',
@@ -117,7 +117,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
         bodyBgImg: [
             '/img/blue.jpeg',
-            '/img/green.jpeg'
+            // '/img/green.jpeg'
             // 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
             // 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
             // 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
@@ -155,29 +155,29 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         blogger: {
             // avatar: 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103123203.jpg',
             avatar: '/img/logo.png',
-            name: 'Fei Niao',
-            slogan: '个人笔记',
+            name: '飛鳥',
+            slogan: 'my web',
         },
 
         // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
         social: {
             // iconfontCssFile: '//at.alicdn.com/t/xxx.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自己添加。阿里图片库：https://www.iconfont.cn/
             icons: [
-                {
-                    iconClass: 'icon-youjian',
-                    title: '发邮件',
-                    link: 'mailto:742738858@qq.com',
-                },
+                // {
+                //     iconClass: 'icon-youjian',
+                //     title: '发邮件',
+                //     link: 'mailto:742738858@qq.com',
+                // },
                 {
                     iconClass: 'icon-github',
                     title: 'GitHub',
                     link: 'https://github.com/feiniao-zlh',
                 },
-                {
-                    iconClass: 'icon-erji',
-                    title: '听音乐',
-                    link: 'https://music.163.com/#/playlist?id=755597173',
-                },
+                // {
+                //     iconClass: 'icon-erji',
+                //     title: '听音乐',
+                //     link: 'https://music.163.com/#/playlist?id=755597173',
+                // },
             ],
         },
 
